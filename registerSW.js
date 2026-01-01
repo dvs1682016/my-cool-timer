@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/my-cool-timer/sw.js', { scope: '/my-cool-timer/' })})}
